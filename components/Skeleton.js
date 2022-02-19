@@ -1,12 +1,12 @@
 const Skeleton = () => {
   return (
-    <div className='banner'>
-      <div className='s-header'>
-        <div className='s-conten'></div>
-        <div className='s-conten'></div>
-        <div className='s-conten'></div>
-        <div className='s-conten'></div>
-      </div>
+    <div className='skleton'>
+      <div className='s-banner'></div>
+      <div className='s-header'></div>
+      <div className='s-content'></div>
+      <div className='s-content'></div>
+      <div className='s-content'></div>
+
       <style jsx>{`
       .skeleton {
           max-width: 1200px;
